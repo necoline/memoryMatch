@@ -8,6 +8,5 @@
   // randomizes imgs
 
 function flip() {
-  var item1 = document.getElementById('pic1');
-return item1;
+document.getElementById('pic1').style.visibility=visible;
 }
