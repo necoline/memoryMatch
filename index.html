@@ -16,17 +16,30 @@
 </meta>
 <body>
   <div class="container">
+  <div class="row">
+      <div onclick="firstbutton()" class="col s4 waves-effect waves-light btn-large"></div>
+      <div class="col s4 waves-effect waves-light btn-large"></div>
+      <div class="col s4 waves-effect waves-light btn-large">3</div>
+      <div class="col s4 waves-effect waves-light btn-large">4</div>
+      <div class="col s4 waves-effect waves-light btn-large">5</div>
+      <div class="col s4 waves-effect waves-light btn-large">6</div>
+      <div class="col s4 waves-effect waves-light btn-large">7</div>
+      <div class="col s4 waves-effect waves-light btn-large">8</div>
+      <div class="col s4 waves-effect waves-light btn-large">8</div>
+    </div>
+  </div>
+<!--   <div class="container">
     <div class="row">
       <table class="responsive-table center">
        <tbody>
          <tr>
            <td>
               <div>
-                <button>
-                  <img onClick="flip()" id="pic1" src="img1.jpeg" style="visibility: hidden"/>
+                <button onclick="flip(this)" id="pic1">
+                  <span id="show" img="url(img1.jpeg)"></span>
                 </button>
-              </div>
-           </td>
+              </div> -->
+           <!-- </td>
            <td>
              <div>
                <button>
@@ -85,7 +98,7 @@
                <button>
                  <img onClick="flip()" id="pic9" src="img1.jpeg" style="display: none;"/>
                </button>
-             </div>
+             </div> -->
            </td>
          </tr>
        </div>
