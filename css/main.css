@@ -1,0 +1,10 @@
+img {
+height: 200px;
+}
+button {
+  height: 200px;
+  width: 200px;
+}
+tbody {
+  border: 3px solid black;
+}
