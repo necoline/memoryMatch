@@ -7,6 +7,7 @@
   //clears history
   // randomizes imgs
 
-function flip() {
-document.getElementById('pic1').style.visibility=visible;
+function firstbutton() {
+	document.getElementById("pic1").innerHTML = 1;
+
 }

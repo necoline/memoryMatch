@@ -12,5 +12,10 @@ tbody {
 }
 
 #pic1 {
-  display: none;
+	/*background-image: url("../img1.jpeg");*/
+	background-size: 50em;
+}
+
+#show {
+	visibility: hidden;
 }
